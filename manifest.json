@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "One-for-all Tab",
+	"version": "1.0.0",
+	"description": "Save tabs with one click, easily manage temporary tabs",
+	"icons": {
+		"16": "images/icon.png",
+		"48": "images/icon.png",
+		"128": "images/icon.png"
+	},
+	"browser_action": {
+		"default_icon": "images/icon.png",
+		"default_title": "OFA Tab",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"tabs",
+		"storage",
+		"unlimitedStorage"
+	],
+	"options_page": "options.html",
+	"homepage_url": "https://hackcamp.nwplus.io/"
+}

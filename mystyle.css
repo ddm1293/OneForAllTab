@@ -1,0 +1,30 @@
+ @charset "UTF-8";
+
+ .dark-mode a:hover {
+    color:#999999;
+    text-decoration:none;
+}
+
+.dark-mode a:visited {
+    color:#C7EDCC;
+    text-decoration:none;
+}
+
+.dark-mode a:active {
+    color:#666666;
+    text-decoration:none;
+}
+
+.dark-mode a {
+    color:#CCCCCC;
+}
+
+.dark-mode.title {
+    color: #FFFFFF;
+}
+
+.dark-mode.p {
+    color: #FFFFFF;
+}
+
+

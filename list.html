@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="header">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>One-for-all Tab</title>
+    <style>
+        .delete-btn{
+            margin-left:5px;
+            cursor: pointer;
+        }
+        .buttons{
+            margin-top:30px;
+        }
+        .buttons>span{
+            display: inline-block;
+            line-height: 30px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            width: 120px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .buttons>span:hover{
+            background: #ccc;
+        }
+        .dark-mode .buttons>span:hover{
+            background: #00FF00;
+        }
+    </style>
+</head>
+<h1 id="title" class="day-mode title">One-for-all Tab</h1>
+<body id="body" class="day-mode">
+    <div style="margin: 21px 0">
+        <p class="day-mode p" id="para1">Below are your saved tabs:</p>
+    <div id="list"></div>
+    <div class="buttons" id="buttons">
+        <span id="openAllBtn">Open All</span>
+        <span id="closeAllBtn">Delete All</span>
+        <span id="nightModeBtn">Night Mode</span>
+    </div>
+    <div style="width: 1000px; margin: 21px 0">
+        <hr>
+        <p class="day-mode p" id="para2">A HackCamp 2021 project created by Huiwen Zuo, Yaosheng Cheng and Meihui Li</p>
+    </div>
+</body>
+<script src="list.js"></script>
+</html>
